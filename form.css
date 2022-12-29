@@ -47,6 +47,7 @@ p{
     text-decoration: double;
     color:black;
     text-emphasis: none;  
+    cursar:pointer;
 }
 .x{
     margin: 3px;
@@ -72,6 +73,7 @@ fieldset{
     background-color: aqua;
     padding:10px;
     height: 50px;
+    cursar:pointer;
 }
 input[type="text"],input[type="date"],input[type="number"],input[type="email"],
 input[type="password"],input[type="datetime-local"],input[type="url"],
@@ -81,12 +83,14 @@ textarea{
     color: blue;
     border: 2PX solid;
     background-color:aqua ;
+    cursar:pointer;
 }
 input[type="file"],
 textarea{
     width: 300px;
     border: 2px solid;
     background-color: aqua;
+    cursar:pointer;
 }
 input[type="submit"],input[type="reset"]{
     width:100px;
@@ -96,14 +100,18 @@ input[type="submit"],input[type="reset"]{
     text-decoration-color: blue;
     border-radius: 30%;
     font-size: 20px;
+    cursar:pointer;
+    color:white;
 }
 input[type="radio"]{
     size: 100px;
     border:2px solid black;
+    cursar:pointer;
 }
 select{
     width: 400px;
     color: red;
     background-color:aqua;
     /* border-radius: 30%; */
+    cursar:pointer;
 }
