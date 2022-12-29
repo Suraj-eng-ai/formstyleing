@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+   background-color:blue;
+}
+form{
+    width: 600px;
+    height: 1600px;
+    margin: auto;
+    padding: 10px;
+    border-color: red;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin-top: 50PX;
+    padding-top: 5PX;
+    padding-left: 10px;
+    /* border-radius: 10%; */
+    margin-bottom: 10px;
+    background-color:burlywood;
+    ho
+}
+form>h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:black;
+    text-align: center;
+    font-size:1cm;
+    border: 5px solid rgb(7, 214, 100); 
+    border-radius: 50%;
+    background-color: rgba(240, 18, 36, 0.986);
+}
+form>div{
+    color: blue;
+    font-size: large;
+    font-style: inherit;
+    font-weight: 800;
+}
+p{
+    font-weight: bolder;
+    font-size: 20px;
+    font: optional;
+    font-variant:normal;
+    margin-bottom: 5px;
+    text-justify: auto;
+    text-decoration: double;
+    color:black;
+    text-emphasis: none;  
+}
+.x{
+    margin: 3px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+h5{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 20px;
+}
+/* .submit{
+    background-color: rgb(252, 65, 19);
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+} */
+fieldset{
+    color: #000;
+    background-color: aqua;
+    padding:10px;
+    height: 50px;
+}
+input[type="text"],input[type="date"],input[type="number"],input[type="email"],
+input[type="password"],input[type="datetime-local"],input[type="url"],
+textarea{
+    width: 400px;
+    border-radius: 10px;
+    color: blue;
+    border: 2PX solid;
+    background-color:aqua ;
+}
+input[type="file"],
+textarea{
+    width: 300px;
+    border: 2px solid;
+    background-color: aqua;
+}
+input[type="submit"],input[type="reset"]{
+    width:100px;
+    padding: 15px;
+    margin:90px;
+    background-color: red;
+    text-decoration-color: blue;
+    border-radius: 30%;
+    font-size: 20px;
+}
+input[type="radio"]{
+    size: 100px;
+    border:2px solid black;
+}
+select{
+    width: 400px;
+    color: red;
+    background-color:aqua;
+    /* border-radius: 30%; */
+}

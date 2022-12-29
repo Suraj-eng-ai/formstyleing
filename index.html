@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="">
+        <h1>CONTACT ME</h1>
+        <div>Name: <input placeholder=" ENTER YOUR " required type="text" ></div><br>
+        <div>address: <input placeholder=" ENTER YOUR ADDRES" required  type="text" name="address" id="adresss"></div><br>
+       <p>chouse your sibling</p>
+        <div> <input required  type="radio" name="1" id="1">Single</div>
+        <div><input required  type="radio" name="1" id="1"> Double</div>
+        <div> <input required  type="radio" name="1" id="1">Triple</div>
+        <p>please tick who is option is true if not true then skip</p>
+        <div> <input required  type="checkbox" name="chechkbox" id="checkbox">are you married </div><br>
+        <div> <input required  type="checkbox" name="chechkbox" id="checkbox">are you non educator </div><br>
+        <div> <input required  type="checkbox" name="chechkbox" id="checkbox">are you teacher </div><br>
+        <div><input required  type="button" onclick="alert('Hello World!')" value="Click Me!">  </div><br>
+        <div> Enter your brithday : <input required  type="date" name="date of beithday id="cday"></div><br>
+        <div>Enter your number : <input placeholder=" ENETER YOUR NUMBER" required  type="number" name="your number" id=""> </div><br>
+        <div>Favourite color : <input required  type="color" name="color" id=""></div><br>
+        <div>Form submitted date eith time: <input required  type="datetime-local" name="localtime" id=""></div><br>
+        <div>Enter Email id:<input placeholder=" ENTER YOUR EMAIL" type="email" name="email" id="email"></div><br>
+        <div>passwrd : <input placeholder=" ENTER YOUR PASSWORD"  type="password" name="password" id="password"></div><br>
+        <div>Enter your web page : <input placeholder=" ENTER YOUR URL" type="url" name="url" id="url"></div><br>
+        <div>upload imge :<input required  type="file" name="image" id="image"></div><br>
+        <div>upload marksheat: <input type="file" name="" id="image"></div><br>
+      <div> Your degree <select name="degree" id="degree">
+        <option value="choose degree">choose degree</option>
+            <option value="1st year">1st year</option>
+            <option value="2st year">2nd year</option>
+            <option value="3st year">3rd year</option>
+            <option value="final year">final year</option>
+        </select></div><br>
+        <div><fieldset>
+            <legend>your payment method for admisiion time</legend>
+            <input type="radio" name="cash" id="cash">cash
+            <input type="radio" name="cash" id="cash">By bank:
+        </fieldset></div><br>
+        <div  class="x">   <h5>  About you   ----</h5> <textarea name="Enter about you" id="x" cols="100" rows="10"></textarea></div><br>
+        <div class="submit"><input required  type="submit" value="submit">
+        <input requiredr type="reset" value="reset"></div>
+    </form>
+</body>
+</html>
